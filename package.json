@@ -1,0 +1,20 @@
+{
+  "name": "goodreadsapi",
+  "version": "1.0.0",
+  "description": "goods reads nodes api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "mongoose-sequence": "^5.3.1"
+  }
+}
